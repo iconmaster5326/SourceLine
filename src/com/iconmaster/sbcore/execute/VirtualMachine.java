@@ -36,7 +36,6 @@ public class VirtualMachine {
 			if (f.getValue()!=null) {
 				Expression expr = f.getValue();
 				Function fn = new Function("%field", new ArrayList<>(), null);
-				pkg.addFunction(fn);
 				fn.setCompiled(expr);
 				
 				loadFunction(fn);
