@@ -173,6 +173,8 @@ public class SourceLine {
 						case FIELD:
 						case FIELD_ASN:
 						case ITERATOR:
+						case TYPE:
+						case TYPE_EXT:
 							mode = DEF;
 							break;
 						case IFBLOCK:
